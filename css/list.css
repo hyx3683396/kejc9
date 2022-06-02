@@ -1,0 +1,39 @@
+/* 导航模块 */
+.list_nav_left {
+	float: left;
+}
+.list_nav_left ul li {
+	float: left;
+	line-height: 48px;
+}
+.list_nav_left ul li a {
+	padding: 0 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.list_nav_right {
+	float: left;
+}
+.list_nav_right ul li {
+	float: left;
+	line-height: 50px;
+}
+.list_nav_right ul li a {
+	padding: 0 25px;
+}
+.list_nav_right ul li:last-child a::after {
+	content: '\e91e';
+	font-family: 'icomoon';
+}
+/* 主体模块 */
+.list_hd {
+	height: 120px;
+	background-image: url(../upload/bg_03.png);
+}
+.list_bd ul li {
+	float: left;
+	height: 460px;
+	width: 300px;
+/* 	padding: 20px 10px; */
+	text-align: center;
+}
